@@ -1,0 +1,11 @@
+CREATE TABLE user_credential (
+  id number(20) NOT NULL,
+  code varchar2(255) NOT NULL,
+  email varchar2(255) NOT NULL,
+  name varchar2(255) NOT NULL,
+  profile varchar2(255) NOT NULL,  
+  password varchar2(255) NOT NULL,
+  date_create  DATE DEFAULT (sysdate) NOT NULL,
+  date_update  DATE,
+  CONSTRAINT user_credential_pk PRIMARY KEY (id)
+);

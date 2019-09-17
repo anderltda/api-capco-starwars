@@ -1,0 +1,7 @@
+INSERT INTO user_credential (id, code, email, name, password, profile, date_create, date_update) 
+VALUES (1, '31463309899', 'anderltda@yahoo.com.br', 'ADMIN', '$2a$06$xIvBeNRfS65L1N17I7JzgefzxEuLAL0Xk0wFAgIkoNqu9WD6rmp4m', 
+'ROLE_ADMIN', sysdate, sysdate);
+
+INSERT INTO user_credential (id, code, email, name, password, profile, date_create, date_update) 
+VALUES (2, '54764954010', 'anderltda@gmail.com', 'USUARIO', '$2a$06$xIvBeNRfS65L1N17I7JzgefzxEuLAL0Xk0wFAgIkoNqu9WD6rmp4m', 
+'ROLE_USUARIO', sysdate, sysdate);
